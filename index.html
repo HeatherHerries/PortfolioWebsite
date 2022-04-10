@@ -1,15 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="https://kit.fontawesome.com/c6a6c76434.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="dist/css/main.css">
-  <title>Heather Herries | Front End Developer & Designer</title>
-</head>
-<body>
-  <h1>Hello</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/c6a6c76434.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/css/main.css" />
+    <title>Heather Herries | Front End Developer & Designer</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header-home">
+      <div class="container">
+        <nav id="main-nav">
+          <img src="dist/img/logo.png" alt="Logo" id="logo" />
+          <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-content">
+          <h1>
+            I Am Heather, Part
+            <span
+              class="txt-type"
+              data-wait="3000"
+              data-words='["Designer", "{Coder}", "Dreamer"]'
+            ></span>
+          </h1>
+          <p class="lead">
+            I specialize in design, code and making dreams come true.
+          </p>
+          <a href="work.html" class="btn-light">View My Work</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section A: Specialize -->
+    <section id="home-a" class="text-center py-2">
+      <div class="container">
+        <h2 class="section-title">I Specialize In</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+          Photography as well as creating digital masterpieces and UI/UX layouts
+          for websites and mobile applications.
+        </p>
+        <div class="specials">
+          <div>
+            <i class="fa-solid fa-file fa-2x"></i>
+            <h3>Concepting</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Perferendis, error eius officiis quibusdam esse cumque similique
+              facilis soluta optio officia?
+            </p>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-desktop fa-2x"></i>
+            <h3>UI/UX</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Perferendis, error eius officiis quibusdam esse cumque similique
+              facilis soluta optio officia?
+            </p>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-object-ungroup fa-2x"></i>
+            <h3>Visual Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Perferendis, error eius officiis quibusdam esse cumque similique
+              facilis soluta optio officia?
+            </p>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-thumbs-up fa-2x"></i>
+            <h3>Interaction</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Perferendis, error eius officiis quibusdam esse cumque similique
+              facilis soluta optio officia?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section B: Stats -->
+    <section id="home-b" class="text-center py-2">
+      <div class="stats">
+        <div>
+          <ul>
+            <li><i class="fa-solid fa-users fa-3x"></i></li>
+            <li class="stats-title">Clients</li>
+            <li class="stats-number">100</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li><i class="fa-solid fa-award fa-3x"></i></li>
+            <li class="stats-title">Awards</li>
+            <li class="stats-number">3</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li><i class="fa-solid fa-hourglass-start fa-3x"></i></li>
+            <li class="stats-title">Hours Worked</li>
+            <li class="stats-number">3500</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li><i class="fa-solid fa-code-branch fa-3x"></i></li>
+            <li class="stats-title">Projects Completed</li>
+            <li class="stats-number">135</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Type Effect Tutorial: https://www.youtube.com/watch?v=POX3dT-p84E -->
+    <script src="dist/js/typewriter.js"></script>
+  </body>
 </html>
